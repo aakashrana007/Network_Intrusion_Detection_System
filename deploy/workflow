@@ -1,0 +1,16 @@
+Workflow Overview
+Capture Packets:
+
+Use tools like tcpdump or scapy to capture traffic in real-time or from a file.
+Extract Features:
+
+Use pyshark, scapy, or Wireshark to extract necessary features.
+Preprocess Features:
+
+Apply your preprocessing pipeline to transform the extracted data.
+Model Inference:
+
+Use the preprocessed data as input to your trained model to classify traffic.
+Alert and Log:
+
+If the model detects malicious activity, trigger alerts or log the results.
